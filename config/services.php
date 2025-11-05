@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'casafari' => [
+        'api_key' => env('CASAFARI_API_KEY'),
+        'api_secret' => env('CASAFARI_API_SECRET'),
+        'base_url' => env('CASAFARI_API_URL', 'https://api.casafari.com'),
+        'timeout' => env('CASAFARI_API_TIMEOUT', 30),
+    ],
+
 ];
